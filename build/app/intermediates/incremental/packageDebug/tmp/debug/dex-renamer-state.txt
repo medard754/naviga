@@ -1,4 +1,4 @@
-#Tue Oct 11 14:57:41 CEST 2022
+#Wed Oct 12 10:53:47 CEST 2022
 base.0=/home/medard/flutterFlow/tp_max/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

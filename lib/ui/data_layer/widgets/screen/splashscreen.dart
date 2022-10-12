@@ -18,14 +18,18 @@ class _SplashState extends State<Splash> {
 
   _navigatetohome() async {
     await Future.delayed(Duration(milliseconds: delay), () {});
-    Get.to(Hello());
+    //Get.to(Hello());
+    Navigator.push(context, 
+          MaterialPageRoute(builder: (context)=> Hello())
+      );
+    
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text("SplashScreen"),
+        child: Text("New"),
       ),
     );
   }
